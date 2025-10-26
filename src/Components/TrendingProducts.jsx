@@ -72,7 +72,7 @@ const TrendingProducts = () => {
   if (isLoading) return <LoadingSpinners />;
 
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-gray-50" data-aos="fade-up">
+    <div className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-2xl" data-aos="fade-up">
       <div className="container mx-auto px-4">
         <h1 className="text-blue-700 text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 md:mb-12 hover:scale-105 transition-all duration-800">
           Trending Products

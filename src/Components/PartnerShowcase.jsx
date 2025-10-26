@@ -2,7 +2,7 @@ import React from 'react';
 
 const PartnerShowcase = () => {
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-gray-100 text-center" data-aos="fade-up">
+    <div className="mt-4 md:mt-12 py-12 md:py-16 lg:py-20 bg-gray-100 text-center rounded-2xl" data-aos="fade-up">
       <div className="container mx-auto px-4">
         <h2 className="text-blue-700 text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Our Partners & Sponsors
