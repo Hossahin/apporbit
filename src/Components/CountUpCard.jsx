@@ -12,7 +12,7 @@ const CountUpCard = () => {
   ];
 
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-gray-50">
+    <div className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-2xl mt-4 lg:mt-10">
       <div className="container mx-auto px-4">
         <h1 className="text-blue-700 text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 md:mb-12 hover:scale-105 transition-all duration-800">
           Building the Future of Tech Discovery
