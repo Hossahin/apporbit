@@ -66,7 +66,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-gray-50" data-aos="fade-up">
+    <div className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-2xl mt-4 md:mt-10" data-aos="fade-up">
       <div className="container mx-auto px-4">
         <h2 className="text-blue-700 text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
           Frequently Asked Questions

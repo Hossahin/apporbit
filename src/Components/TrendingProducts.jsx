@@ -72,7 +72,10 @@ const TrendingProducts = () => {
   if (isLoading) return <LoadingSpinners />;
 
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-2xl" data-aos="fade-up">
+    <div
+      className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-2xl"
+      data-aos="fade-up"
+    >
       <div className="container mx-auto px-4">
         <h1 className="text-blue-700 text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 md:mb-12 hover:scale-105 transition-all duration-800">
           Trending Products
@@ -166,7 +169,7 @@ const TrendingProducts = () => {
 
         <div className="mt-12 text-center">
           <Link to={"/products"}>
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300">
+            <button className="cursor-pointer bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300">
               Show All Products
             </button>
           </Link>
