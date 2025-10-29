@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutAppOrbit = () => {
   return (
-    <section className="py-12 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden">
+    <section className="py-12 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden rounded-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight animate-fade-in-down">

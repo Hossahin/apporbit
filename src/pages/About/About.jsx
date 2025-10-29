@@ -4,7 +4,7 @@ import AboutAppOrbit from "../../Components/AboutAppOrbit";
 
 const About = () => {
   return (
-    <div>
+    <div className="">
       <AboutAppOrbit />
       <WhyChooseUs />
     </div>

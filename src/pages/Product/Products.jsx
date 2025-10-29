@@ -126,7 +126,7 @@ const Products = () => {
 
   return (
     <div
-      className="py-12 md:py-16 lg:py-20 bg-gray-50"
+      className="py-12 md:py-16 lg:py-20 bg-gray-50 rounded-md"
       data-aos="zoom-out-left"
     >
       <div className="container mx-auto px-4">
