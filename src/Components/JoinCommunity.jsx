@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const JoinCommunity = () => {
   return (
     <div
-      className="py-12 md:py-16 lg:py-20 bg-gray-50 text-center"
+      className="py-12 md:py-16 lg:py-20 bg-gray-50 text-center rounded-2xl mt-4 md:mt-10"
       data-aos="fade-up"
     >
       <div className="container mx-auto px-4">
