@@ -4,7 +4,7 @@ import logo from "../assets/AppOrbit logo.png";
 
 const Footer = () => {
   return (
-    <div className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+    <div className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded-2xl p-10">
       <img
         src={logo}
         alt="AppOrbit Logo"
