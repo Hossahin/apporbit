@@ -18,14 +18,14 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to={"home"} className={"hover:bg-indigo-700 hover:text-white"}>
+        <NavLink to={"home"} className={"hover:bg-blue-800 hover:text-white"}>
           Home
         </NavLink>
       </li>
       <li>
         <NavLink
           to={"products"}
-          className={"hover:bg-indigo-700 hover:text-white"}
+          className={"hover:bg-blue-800 hover:text-white"}
         >
           Products
         </NavLink>
@@ -33,7 +33,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to={"about"}
-          className={"hover:bg-indigo-700 hover:text-white"}
+          className={"hover:bg-blue-800 hover:text-white"}
         >
           About
         </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to={"pricing"}
-              className={"hover:bg-indigo-700 hover:text-white"}
+              className={"hover:bg-blue-800 hover:text-white"}
             >
               Pricing
             </NavLink>
@@ -52,7 +52,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to={"features"}
-              className={"hover:bg-indigo-700 hover:text-white"}
+              className={"hover:bg-blue-800 hover:text-white"}
             >
               Features
             </NavLink>
@@ -87,9 +87,8 @@ const Navbar = () => {
   };
 
   return (
-   <div className="navbar p-0 fixed top-0 left-0 right-0 z-50 shadow-md bg-white/30 backdrop-blur-md">
-
-      <div className="w-11/12 mx-auto flex justify-between items-center">
+    <div className="navbar p-0 fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-xl">
+      <div className="flex justify-between items-center w-full max-w-screen-2xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -131,7 +130,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal gap-5 border border-gray-200 rounded-full px-20 shadow-sm">
+          <ul className="menu menu-horizontal gap-5 border border-gray-200 rounded-full px-20">
             {navLinks}
           </ul>
         </div>
@@ -200,18 +199,18 @@ const Navbar = () => {
             {!loginUser && (
               <>
                 <div className="space-x-2">
-                  <NavLink
-                    className={"btn hover:bg-blue-700 hover:text-white"}
+                  <Link
+                    className={"btn bg-blue-700/10 border border-blue-700 hover:bg-blue-700 hover:text-white"}
                     to={"login"}
                   >
                     Login
-                  </NavLink>
-                  <NavLink
-                    className={"btn hover:bg-blue-700 hover:text-white"}
+                  </Link>
+                  <Link
+                    className={"btn bg-blue-700  hover:bg-blue-800 text-white"}
                     to={"signup"}
                   >
                     Register
-                  </NavLink>
+                  </Link>
                 </div>
               </>
             )}
