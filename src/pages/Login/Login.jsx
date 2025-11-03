@@ -83,7 +83,8 @@ const Login = () => {
 
   return (
     <>
-      <div className="mt-7 w-full max-w-[800px] mx-auto bg-white border border-gray-200 rounded-xl shadow-2xs">
+      <div className="px-2">
+        <div class="mt-7 w-full max-w-[600px] md:w-[600px] mx-auto bg-white border border-gray-200 rounded-xl shadow-2xs">
         <div className="p-4 sm:p-7">
           <div className="text-center">
             <h1 className="block text-2xl font-bold text-gray-800">Sign in</h1>
@@ -216,6 +217,7 @@ const Login = () => {
             </form>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
