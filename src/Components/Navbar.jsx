@@ -31,10 +31,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to={"about"}
-          className={"hover:bg-blue-800 hover:text-white"}
-        >
+        <NavLink to={"about"} className={"hover:bg-blue-800 hover:text-white"}>
           About
         </NavLink>
       </li>
@@ -87,11 +84,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar p-0 fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-xl">
+    <div className="navbar p-2 fixed top-0 left-0 right-0 z-50 bg-white/30 backdrop-blur-xl">
       <div className="flex justify-between items-center w-full max-w-screen-2xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="pr-0.5 lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -198,9 +195,11 @@ const Navbar = () => {
           <div className="">
             {!loginUser && (
               <>
-                <div className="space-x-2">
+                <div className="space-x-1 md:space-x-2 flex flex-row">
                   <Link
-                    className={"btn bg-blue-700/10 border border-blue-700 hover:bg-blue-700 hover:text-white"}
+                    className={
+                      "btn bg-blue-700/10 border border-blue-700 hover:bg-blue-700 hover:text-white"
+                    }
                     to={"login"}
                   >
                     Login
